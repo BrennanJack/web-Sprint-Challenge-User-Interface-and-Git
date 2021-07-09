@@ -70,6 +70,24 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header {
+    margin: 20px 0 20px 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.jumbo {
+    margin: 20px 0 20px 0;
+}
 
 .top-content {
     display: flex;
@@ -85,6 +103,12 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content-about .text-container {
+    width: 95%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -93,6 +117,37 @@ p {
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+}
+
+.middle-content-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+}
+
+.middle-content-about .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 30px;
+    border-bottom: 1px dashed black;
+    margin: 20px 0 20px 0;
+}
+
+.middle-content-about .text-container img {
+    margin: 20px 0 10px 0;
+}
+
+.middle-content-about .text-container p {
+    margin-bottom: 35px;
+}
+.middle-content-about .text-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;    
 }
 
 .middle-content .boxes {
@@ -104,12 +159,51 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
